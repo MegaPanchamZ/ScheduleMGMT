@@ -1,0 +1,27 @@
+{
+  "name": "schedulemgmt",
+  "version": "1.0.0",
+  "description": "Schedule Manager",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MegaPanchamZ/ScheduleMGMT.git"
+  },
+  "author": "Debashish Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MegaPanchamZ/ScheduleMGMT/issues"
+  },
+  "homepage": "https://github.com/MegaPanchamZ/ScheduleMGMT#readme",
+  "devDependencies": {
+    "electron": "^21.1.1"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^6.5.2",
+    "mysql": "^2.18.1"
+  }
+}
